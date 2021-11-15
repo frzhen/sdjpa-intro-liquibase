@@ -1,1 +1,1 @@
-# sdjpa-intro
+### Spring Data JPA Intro project

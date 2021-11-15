@@ -1,0 +1,178 @@
+# Last update: 2021-10-27
+# Author: Fred Zhen
+# email: fred.zhen@1dataops.com
+
+################################
+# Spring Boot Starter generated
+################################
+HELP.md
+
+##############################################
+# ignore Maven Flatten Plugin generated files
+##############################################
+.flattened-pom.xml
+
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+#################### IDE Specific ################
+######################
+# Intellij
+######################
+.idea/
+.idea
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+/log/
+/target/
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Eclipse specific
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+########################
+# STS: Spring Tool Suit
+########################
+.apt_generated
+.settings
+.springBeans
+.sts4-cache
+
+#####################
+# NetBeans
+#####################
+/nbproject/private/
+/nbbuild/
+/dist/
+dist/
+/nbdist/
+nbdist/
+/.nb-gradle/
+.nb-gradle/
+build/
+build/*
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+#################### Language Specific ##############
+######################
+# Java Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+######################
+# SASS
+######################
+.sass-cache/
+
+################### OS Specific ####################
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+###################### MISC #######################
+######################
+# External tool builders
+#####################
+.externalToolBuilders/**
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# ESLint
+######################
+.eslintcache
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
