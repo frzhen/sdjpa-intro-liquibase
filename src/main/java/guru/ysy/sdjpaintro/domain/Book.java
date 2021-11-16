@@ -4,7 +4,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.time.Year;
 import java.util.Objects;
 
 /**
@@ -20,17 +19,14 @@ public class Book {
     private String title;
     private String isbn;
     private String publisher;
-    private Year publishYear;
 
     public Book() {
     }
 
-    public Book(Long id, String title, String isbn, String publisher, Year publishYear) {
-        this.id = id;
+    public Book(String title, String isbn, String publisher) {
         this.title = title;
         this.isbn = isbn;
         this.publisher = publisher;
-        this.publishYear = publishYear;
     }
 
     @Override
@@ -78,13 +74,5 @@ public class Book {
 
     public void setPublisher(String publisher) {
         this.publisher = publisher;
-    }
-
-    public Year getPublishYear() {
-        return publishYear;
-    }
-
-    public void setPublishYear(Year publishYear) {
-        this.publishYear = publishYear;
     }
 }
