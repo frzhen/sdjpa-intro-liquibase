@@ -18,7 +18,7 @@ public class DataInitializer implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         try {
             Book bookDDD = new Book("Domain Driven Design", "123", "RandomHouse");
 
