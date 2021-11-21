@@ -46,6 +46,19 @@
         </dependency>
     </dependencies>
 
+    <!-- This is only used when you would like to use H2 base for running the application outside the test scope -->
+    <profiles>
+        <profile>
+            <id>h2</id>
+            <dependencies>
+                <dependency>
+                    <groupId>com.h2database</groupId>
+                    <artifactId>h2</artifactId>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
+
     <build>
         <plugins>
             <plugin>
