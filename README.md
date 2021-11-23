@@ -4,4 +4,4 @@
 * Active profiles: local，remote
 * Version: MySQL:8.0.27
 * Instances:
-  * External port from dockered mysql: 3308
+  * External port for docker mysql: 3308
