@@ -6,10 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * Created by zhenrui on 2021/11/21 22:45
+ * Created by zhenrui on 2021/11/22 10:21
  */
 @Entity
 public class Author {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
