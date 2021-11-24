@@ -4,8 +4,9 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
-    <include file="db/changelog/baseline-changelog.xml"/>
-<!--    <include file="db/changelog/init-hibernate.xml"/>-->
-    <include file="db/changelog/add-author.xml"/>
-    <include file="db/changelog/add-author-id-to-book.xml"/>
+    <include file="db/changelogs/baseline-changelog.xml"/>
+<!--    <include file="db/changelogs/init-hibernate.xml"/>-->
+    <include file="db/changelogs/add-author.xml"/>
+    <include file="db/changelogs/add-author-id-to-book.xml"/>
+    <include file="db/changelogs/add-auto-increment-pk.xml"/>
 </databaseChangeLog>
