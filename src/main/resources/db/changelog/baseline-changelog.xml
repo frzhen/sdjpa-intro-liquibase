@@ -13,15 +13,15 @@
             <column name="title" type="VARCHAR(255)"/>
         </createTable>
     </changeSet>
-    <changeSet author="FRZ" id="2">
-        <createTable tableName="hibernate_sequence">
-            <column name="next_val" type="BIGINT"/>
-        </createTable>
-    </changeSet>
+<!--    <changeSet author="FRZ" id="2">-->
+<!--        <createTable tableName="hibernate_sequence">-->
+<!--            <column name="next_val" type="BIGINT"/>-->
+<!--        </createTable>-->
+<!--    </changeSet>-->
 <!--    Initialize Hinernate initial value, without this, id will not have initial value-->
-    <changeSet author="FRZ" id="3">
-        <insert tableName="hibernate_sequence">
-            <column name="next_val" value="1" />
-        </insert>
-    </changeSet>
+<!--    <changeSet author="FRZ" id="3">-->
+<!--        <insert tableName="hibernate_sequence">-->
+<!--            <column name="next_val" value="1" />-->
+<!--        </insert>-->
+<!--    </changeSet>-->
 </databaseChangeLog>

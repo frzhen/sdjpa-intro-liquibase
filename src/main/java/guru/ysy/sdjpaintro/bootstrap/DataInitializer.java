@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by zhenrui on 2021/11/15 21:29
  */
-@Profile({"local", "remote", "default"})
+@Profile({"local", "default"})
 @Component
 public class DataInitializer implements CommandLineRunner {
 
@@ -24,7 +24,11 @@ public class DataInitializer implements CommandLineRunner {
         try {
             bookRepository.deleteAll();
 
-            Book bookDDD = new Book("Domain Driven Design", "123", "RandomHouse", null);
+            Book bookDDD = new Book(
+                    "Domain Driven Design",
+                    "123",
+                    "RandomHouse",
+                    null);
 
             System.out.println("Id: " + bookDDD.getId());
 
@@ -32,7 +36,11 @@ public class DataInitializer implements CommandLineRunner {
 
             System.out.println("Id: " + savedDDD.getId());
 
-            Book bookSIA = new Book("Spring In Action", "234", "Orielly", null);
+            Book bookSIA = new Book(
+                    "Spring In Action",
+                    "234",
+                    "Orielly",
+                    null);
             Book savedSIA = bookRepository.save(bookSIA);
 
             System.out.println("Id: " + savedSIA.getId());
