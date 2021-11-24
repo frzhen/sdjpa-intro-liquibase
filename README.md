@@ -7,3 +7,9 @@
   * Encoding: UTF-8, utf8mb4_unicode_ci
 * Instances:
   * External port for docker mysql: 3308
+  
+
+#### Note: 
+* Liquibase's advantage over Flyway:
+  * No need for vendor specific setup since Liquibase use abstraction instead of sql script.
+  * Flyway Maven plugin needs to set up specific datasource parameters, while liquibase don't.
