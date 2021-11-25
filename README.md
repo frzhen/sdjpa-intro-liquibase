@@ -13,3 +13,5 @@
 * Liquibase's advantage over Flyway:
   * No need for vendor specific setup since Liquibase use abstraction instead of sql script.
   * Flyway Maven plugin needs to set up specific datasource parameters, while liquibase don't.
+
+### [UUID Generation](https://github.com/frzhen/sdjpa-intro-liquibase/blob/main/UUID.md)
